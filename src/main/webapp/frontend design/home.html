@@ -1,0 +1,68 @@
+<%@ page  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="user-dashboard.css">
+    <title>Home</title>
+</head>
+<body>
+    <main class="content" id="Home">
+        <h4 id="greeting"></h4>
+        <h1 id="username">${account.accountHolderName}</h1>
+        <p>Overview of your financial status and quick actions.</p>
+
+        <div class="overview">
+            <div class="card">
+                <h2>Account Details</h2>
+                <p>Account Number: ${account.accountNumber}</p>
+                <p>Phone Number: ${account.phone}</p>
+                <p>Email: ${account.email}</p>
+            </div>
+            <div class="card">
+                <h2>Balance</h2>
+                <p>₹${account.balance}</p>
+            </div>
+            <div class="card">
+                <h2>Upcoming Payments</h2>
+                <ul>
+                    <li>$75.00 - Credit Card Payment</li>
+                    <li>$50.00 - Gym Membership</li>
+                </ul>
+            </div>
+            <div class="card transaction">
+                <h2>Recent Transactions</h2>
+                <table class="transaction-table">
+                    <thead>
+                    <tr>
+                        <th>SL No</th>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Type</th>
+                        <th>Amount</th>
+                        <th>Date And Time</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <c:forEach var="transaction" items="${transactions}" varStatus="status">
+
+                    <tr>
+                        <td>${status.index + 1}</td> <!-- Displaying index starting from 1 -->
+                        <td>${transaction.fromAccountNumber}</td>
+                        <td>${transaction.toAccountNumber}</td>
+                        <td>${transaction.type}</td>
+                        <td>${transaction.amount}</td>
+                        <td>${transaction.timestamp}</td>
+                    </tr>
+
+                    </c:forEach>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
