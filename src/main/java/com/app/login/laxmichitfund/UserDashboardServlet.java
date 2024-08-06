@@ -1,6 +1,7 @@
 package com.app.login.laxmichitfund;
 
 import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -13,6 +14,8 @@ import java.io.IOException;
  * @project: LaxmiChitFund
  * @Date: 02-08-2024
  */
+
+@WebServlet("/user-dashboard")
 public class UserDashboardServlet extends HttpServlet {
 
     @Override

@@ -4,6 +4,7 @@ import com.app.login.laxmichitfund.account.Account;
 import com.app.login.laxmichitfund.passbook.Transaction;
 import com.app.login.laxmichitfund.service.AccountService;
 import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -17,6 +18,8 @@ import java.util.List;
  * @project: LaxmiChitFund
  * @Date: 29-07-2024
  */
+
+@WebServlet("/login")
 public class LoginServlet extends HttpServlet {
     private final AccountService accountService = new AccountService();
 

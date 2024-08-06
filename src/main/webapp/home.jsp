@@ -71,8 +71,9 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", () =>{
-            const greetingElement = document.getElementById("greeting");
 
+            // greetings
+            const greetingElement = document.getElementById("greeting");
             function getGreeting() {
                 const now = new Date();
                 const hours = now.getHours();

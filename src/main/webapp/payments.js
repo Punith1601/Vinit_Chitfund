@@ -90,7 +90,7 @@ function sendPaymentData(action) {
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4 && xhr.status == 200) {
             // Update the page with the response
-            alert(xhr.responseText); // Replace with more user-friendly UI update if desired
+            alert(xhr.responseText);
         }
     };
 

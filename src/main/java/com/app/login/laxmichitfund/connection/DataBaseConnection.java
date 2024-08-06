@@ -10,7 +10,7 @@ import java.sql.SQLException;
  * @project: Bank System
  * @Date: 19-07-2024
  */
-public class DataBaseConnection {
+public class    DataBaseConnection {
     private static String URL = "jdbc:mysql://localhost:3306/BankSystem";
     private static String USER = "root";
     private static String PASSWORD = "zxcvbnm,./";
