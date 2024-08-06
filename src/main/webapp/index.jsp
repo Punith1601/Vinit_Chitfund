@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Welcome to Laxmi Chit Fund</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"

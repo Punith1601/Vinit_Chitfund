@@ -5,7 +5,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>Laxmi Chit Fund</title>
-        <link rel="stylesheet" href="user-dashboard.css" />
+        <link rel="stylesheet" href="css/user-dashboard.css" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"

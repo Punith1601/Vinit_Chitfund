@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Payments</title>
-    <link rel="stylesheet" href="payments.css" />
+    <link rel="stylesheet" href="css/payments.css" />
 </head>
 <body>
 <main class="content" id="Payments">
@@ -149,7 +149,7 @@
             </div>
         </div>
     </div>
-    <script src="payments.js"></script>
+    <script src="js/payments.js"></script>
 </main>
 </body>
 </html>

@@ -19,7 +19,7 @@ import java.util.List;
  * @Date: 29-07-2024
  */
 
-
+@WebServlet("/login")
 public class LoginServlet extends HttpServlet {
     private final AccountService accountService = new AccountService();
 

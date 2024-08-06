@@ -16,6 +16,7 @@ import java.io.IOException;
  */
 
 
+@WebServlet("/user-dashboard")
 public class UserDashboardServlet extends HttpServlet {
 
     @Override
