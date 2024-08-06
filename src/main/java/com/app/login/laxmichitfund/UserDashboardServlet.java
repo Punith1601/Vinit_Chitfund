@@ -15,7 +15,7 @@ import java.io.IOException;
  * @Date: 02-08-2024
  */
 
-@WebServlet("/user-dashboard")
+
 public class UserDashboardServlet extends HttpServlet {
 
     @Override

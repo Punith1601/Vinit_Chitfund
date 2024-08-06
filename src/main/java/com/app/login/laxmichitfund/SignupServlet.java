@@ -17,7 +17,7 @@ import java.io.PrintWriter;
  * @Date: 29-07-2024
  */
 
-@WebServlet("/signup")
+
 public class SignupServlet extends HttpServlet {
 
     private AccountService accountService = new AccountService();
