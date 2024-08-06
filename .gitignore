@@ -3,7 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-src/main/webapp/frontendDesign/
+src/main/webapp/frontendDesign
 
 
 ### IntelliJ IDEA ###
