@@ -30,8 +30,8 @@
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/laxmi-chit-fund.git
-   cd laxmi-chit-fund
+   git clone https://github.com/vinitpk/Laxmi-Chit-Fund.git
+   cd Laxmi-chit-fund
 
 2. **Database Setup**
 - Create a new database in MySQL.
