@@ -42,3 +42,9 @@
   
 4. **Access the Application**
 - Open your web browser and navigate to http://localhost:8080/LaxmiChitFund/
+
+
+## Open to Suggestion ##
+ ### Pending Features
+   1. forgot password
+2. update account
