@@ -3,7 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-/frontend design
+/src/main/webapp/frontend design
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
